@@ -5,7 +5,7 @@ include 'includes/head.php';
 include 'includes/navigation.php';
 
 ?>
-Brands
+Brands Home
 
 <?php
 include 'includes/footer.php';
