@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <a href="index.php" class="navbar-brand">Network Devices Admin
+        <a href="/network_accessories/admin/index.php" class="navbar-brand">Network Devices Admin
             <!--<img src="../images/logo1.png" class=img-fluid>-->
         </a>
 
