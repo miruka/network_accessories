@@ -17,7 +17,7 @@
             "id": id
         };
         jQuery.ajax({
-            url: <?= BASEURL; ?> + 'includes/detailsmodal.php',
+            url: 'includes/detailsmodal.php',
             method: "post",
             data: data,
             success: function(data) {

@@ -5,4 +5,7 @@ if (mysqli_connect_errno()) {
     die();
 }
 
-define('BASEURL', '/network_accessories/');
+//define('BASEURL', '/network_accessories/');// This was the relative path
+require_once $_SERVER['DOCUMENT_ROOT'] . '/network_accessories/config.php'; // Absolute path can be acessed by any file in the project
+
+require_once BASEURL . '/helpers/helpers.php';
